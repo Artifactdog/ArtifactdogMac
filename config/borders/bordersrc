@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Rice-style focus treatment: a vivid blue fading into soft lilac-pink, with a
+# clearly visible blue-gray inactive outline. Draw above the native window
+# layer so macOS's drop shadow does not dim the lower edge of the border.
+options=(
+  style=round
+  order=above
+  width=7.0
+  hidpi=on
+  active_color='gradient(top_left=0xff4aa8ff,bottom_right=0xffd9a7e8)'
+  inactive_color=0xff606a85
+)
+
+borders "${options[@]}"

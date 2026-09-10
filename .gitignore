@@ -1,0 +1,25 @@
+# Local Codex instructions are useful on the authoring machine, but are not
+# part of the public setup repository.
+AGENTS.md
+**/AGENTS.md
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Backups created by install.sh
+artifactdog-macos-setup-backup-*/
+
+# Machine-local overrides and secrets
+.env
+.env.*
+!.env.example
+*.local
+config.local/
+
+# Editor and tooling state
+.vscode/
+.idea/
+.codex/

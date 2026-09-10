@@ -1,0 +1,23 @@
+{
+  "title": "Artifactdog Hyper Key",
+  "rules": [
+    {
+      "description": "Caps Lock → Hyper (Control + Option + Command)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to": [
+            {
+              "key_code": "left_control",
+              "modifiers": ["left_option", "left_command"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Artifactdog's macOS setup — transparent Ghostty terminal
+#
+# Ghostty applies opacity to the terminal background and uses native macOS
+# blur. Native fullscreen intentionally becomes opaque on macOS.
+background-opacity = 0.86
+background-blur = 20
+macos-titlebar-style = transparent
+
+# Caps+W deliberately closes Ghostty's last window and quits the app. Do not
+# interrupt that workflow with a second confirmation dialog.
+confirm-close-surface = false
