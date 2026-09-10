@@ -11,6 +11,10 @@ menu bar remains enabled. Raycast keeps its own **Caps + Space** binding.
 The separate **Globe/Fn** key remains a macOS input-source switch; it is not
 part of the Caps Lock Hyper modifier.
 
+Hold **Caps Lock first**, then hold **Tab**, then press the shortcut key for the
+Tab layer. Normal Tab behavior is unchanged when Caps Lock is not held. The
+original Caps+Shift combinations remain available as an alternate path.
+
 ## Window and app control
 
 | Hotkey | Action |
@@ -18,9 +22,10 @@ part of the Caps Lock Hyper modifier.
 | **Caps + W** | Close the focused window; quit the app if it was that app's last window |
 | **Caps + Q** | Quit the application owning the focused window |
 | **Caps + F** | Native macOS fullscreen; removes the title bar and fills the display |
-| **Caps + Shift + F** | AeroSpace fullscreen without creating a separate macOS Space |
+| **Caps + Tab + F** | AeroSpace fullscreen without creating a separate macOS Space |
 | **Caps + E** | Toggle floating / tiled |
 | **Caps + Enter** | Open a new Ghostty window with smart alternating BSP placement |
+| **Caps + N** | Open a new Finder window at the home folder |
 | **Caps + Space** | Open Raycast (Raycast-owned binding) |
 
 W is the normal close action. When it closes an app's last known window,
@@ -41,7 +46,7 @@ it active.
 | **Caps + J** | Focus left |
 | **Caps + K** | Focus down |
 | **Caps + L** | Focus right |
-| **Caps + Shift + I/J/K/L** | Move the focused window up / left / down / right |
+| **Caps + Tab + I/J/K/L** | Move the focused window up / left / down / right |
 
 The Ghostty launcher is deliberately BSP-like. The first two terminals create
 a left/right root. After that, the new terminal is split inside whichever pane
@@ -67,10 +72,10 @@ custom Space indicator is used.
 | Hotkey | Action |
 |---|---|
 | **Caps + 1…6** | Focus AeroSpace workspace 1–6 |
-| **Caps + Shift + 1…6** | Send the focused window to workspace 1–6 |
+| **Caps + Tab + 1…6** | Send the focused window to workspace 1–6 |
 | **Caps + P** | Switch to the previous workspace |
 | **Caps + D** | Move the focused window to the next display and focus it |
-| **Caps + Shift + D** | Move the current workspace to the next display |
+| **Caps + Tab + D** | Move the current workspace to the next display |
 
 ## Layout and resizing
 

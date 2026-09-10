@@ -95,6 +95,7 @@ The installer applies these project files to the live setup:
 ```text
 ~/.config/aerospace/aerospace.toml
 ~/.config/aerospace/quit-focused-app.sh
+~/.config/aerospace/open-finder.sh
 ~/.config/aerospace/reload-borders.sh
 ~/.config/aerospace/restart-window-stack.sh
 ~/.config/aerospace/smart-open-ghostty.sh

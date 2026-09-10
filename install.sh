@@ -118,6 +118,7 @@ defaults write com.apple.HIToolbox AppleFnUsageType -int 1
 chmod +x \
   "$HOME/.config/borders/bordersrc" \
   "$HOME/.config/aerospace/quit-focused-app.sh" \
+  "$HOME/.config/aerospace/open-finder.sh" \
   "$HOME/.config/aerospace/reload-borders.sh" \
   "$HOME/.config/aerospace/restart-window-stack.sh" \
   "$HOME/.config/aerospace/smart-open-ghostty.sh" \

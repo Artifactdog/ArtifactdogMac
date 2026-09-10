@@ -56,6 +56,8 @@ ctrl-alt-cmd-k = 'focus down'
 ctrl-alt-cmd-l = 'focus right'
 
 # Move windows
+# The Caps+Tab layer in Karabiner emits the Shift modifier while Tab is held.
+# Physical Caps+Shift remains an alternate input for these bindings.
 ctrl-alt-cmd-shift-i = 'move up'
 ctrl-alt-cmd-shift-j = 'move left'
 ctrl-alt-cmd-shift-k = 'move down'
@@ -69,7 +71,7 @@ ctrl-alt-cmd-4 = 'workspace 4'
 ctrl-alt-cmd-5 = 'workspace 5'
 ctrl-alt-cmd-6 = 'workspace 6'
 
-# Send window to workspace (same number map, with Shift)
+# Send window to workspace (same number map, via the Caps+Tab layer)
 ctrl-alt-cmd-shift-1 = 'move-node-to-workspace 1'
 ctrl-alt-cmd-shift-2 = 'move-node-to-workspace 2'
 ctrl-alt-cmd-shift-3 = 'move-node-to-workspace 3'
@@ -93,6 +95,7 @@ ctrl-alt-cmd-b = 'balance-sizes'
 ctrl-alt-cmd-p = 'workspace-back-and-forth'
 ctrl-alt-cmd-w = 'close --quit-if-last-window'
 ctrl-alt-cmd-enter = 'exec-and-forget bash ~/.config/aerospace/smart-open-ghostty.sh'
+ctrl-alt-cmd-n = 'exec-and-forget bash ~/.config/aerospace/open-finder.sh'
 ctrl-alt-cmd-q = 'exec-and-forget bash ~/.config/aerospace/quit-focused-app.sh'
 ctrl-alt-cmd-s = 'mode resize'
 

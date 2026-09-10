@@ -12,8 +12,47 @@
           },
           "to": [
             {
+              "set_variable": {
+                "name": "artifactdog_caps_held",
+                "value": 1
+              }
+            },
+            {
               "key_code": "left_control",
               "modifiers": ["left_option", "left_command"]
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "set_variable": {
+                "name": "artifactdog_caps_held",
+                "value": 0
+              }
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "description": "Caps Lock + Tab → Shift layer (hold Caps first)",
+          "from": {
+            "key_code": "tab",
+            "modifiers": { "optional": ["any"] }
+          },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "artifactdog_caps_held",
+              "value": 1
+            }
+          ],
+          "to": [
+            {
+              "key_code": "left_shift"
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "key_code": "left_shift"
             }
           ]
         }
