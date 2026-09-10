@@ -21,8 +21,8 @@ original Caps+Shift combinations remain available as an alternate path.
 |---|---|
 | **Caps + W** | Close the focused window; quit the app if it was that app's last window |
 | **Caps + Q** | Quit the application owning the focused window |
-| **Caps + F** | Native macOS fullscreen; removes the title bar and fills the display |
-| **Caps + Tab + F** | AeroSpace fullscreen without creating a separate macOS Space |
+| **Caps + F** | AeroSpace fullscreen with border clearance, without creating a separate macOS Space |
+| **Caps + Tab + F** | Native macOS fullscreen; removes the title bar and fills the display |
 | **Caps + E** | Toggle floating / tiled |
 | **Caps + Enter** | Open a new Ghostty window with smart alternating BSP placement |
 | **Caps + N** | Open a new Finder window at the home folder |

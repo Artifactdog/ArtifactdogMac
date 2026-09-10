@@ -83,10 +83,11 @@ ctrl-alt-cmd-shift-6 = 'move-node-to-workspace 6'
 ctrl-alt-cmd-d = 'move-node-to-monitor --focus-follows-window --wrap-around next'
 ctrl-alt-cmd-shift-d = 'move-workspace-to-monitor --wrap-around next'
 
-# Fullscreen: native fullscreen is the default because it removes the title bar.
-ctrl-alt-cmd-f = 'macos-native-fullscreen'
-# Managed AeroSpace fullscreen remains available when avoiding a separate Space.
-ctrl-alt-cmd-shift-f = 'fullscreen --no-outer-gaps'
+# Managed AeroSpace fullscreen is the default and keeps the outer gap for
+# JankyBorders without creating a separate macOS Space.
+ctrl-alt-cmd-f = 'fullscreen'
+# Native fullscreen removes the title bar and uses a separate macOS Space.
+ctrl-alt-cmd-shift-f = 'macos-native-fullscreen'
 
 ctrl-alt-cmd-e = 'layout floating tiling'
 ctrl-alt-cmd-t = 'layout tiles horizontal vertical'
