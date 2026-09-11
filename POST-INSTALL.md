@@ -80,6 +80,11 @@ be side by side; each later window should split the currently focused pane on
 the opposite axis, producing the alternating BSP/grid effect. The launcher
 serializes rapid presses so a burst does not repeat the same orientation.
 
+**Caps + Tab + E** toggles floating/tiled layout; physical **Caps + Shift + E**
+is an alternate path for that toggle. The separate Globe/Fn key remains
+available for the macOS input-source and emoji behavior configured in System
+Settings.
+
 Apps opened from Finder, the Dock, or their own menus are handled by the same
 new-window callback. Normal app windows are forced into the tiling tree and
 placed beside the focused pane; System Settings, Calculator,

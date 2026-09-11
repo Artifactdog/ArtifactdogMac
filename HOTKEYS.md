@@ -23,7 +23,7 @@ original Caps+Shift combinations remain available as an alternate path.
 | **Caps + Q** | Quit the application owning the focused window |
 | **Caps + F** | AeroSpace fullscreen with border clearance, without creating a separate macOS Space |
 | **Caps + Tab + F** | Native macOS fullscreen; removes the title bar and fills the display |
-| **Caps + E** | Toggle floating / tiled |
+| **Caps + Tab + E** | Toggle floating / tiled |
 | **Caps + Enter** | Open a new Ghostty window with smart alternating BSP placement |
 | **Caps + N** | Open a new Finder window at the home folder |
 | **Caps + Space** | Open Raycast (Raycast-owned binding) |
@@ -34,6 +34,9 @@ accumulating. Ghostty's close confirmation is disabled because this is an
 intentional terminal-close workflow; running processes in that terminal are
 terminated immediately. Q is the explicit whole-application quit action.
 Background/menu-bar apps with no focused window are not targeted.
+
+The float/tile toggle is on Caps+Tab+E; physical Caps+Shift+E remains an
+alternate path for the same action.
 
 ## Focus and move windows
 

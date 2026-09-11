@@ -89,7 +89,9 @@ ctrl-alt-cmd-f = 'fullscreen'
 # Native fullscreen removes the title bar and uses a separate macOS Space.
 ctrl-alt-cmd-shift-f = 'macos-native-fullscreen'
 
-ctrl-alt-cmd-e = 'layout floating tiling'
+# Keep the float/tile toggle on the Caps+Tab layer. Physical Caps+Shift+E
+# remains an alternate path because it emits the same binding.
+ctrl-alt-cmd-shift-e = 'layout floating tiling'
 ctrl-alt-cmd-t = 'layout tiles horizontal vertical'
 ctrl-alt-cmd-a = 'layout tiles'
 ctrl-alt-cmd-b = 'balance-sizes'
